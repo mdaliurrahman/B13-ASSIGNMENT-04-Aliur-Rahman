@@ -27,7 +27,7 @@
         <div class="grid grid-cols-3 gap-4">
             <div class="w-96 mx-auto h-24 p-5 rounded-lg inset-shadow-sm/20">
                 <p class="font-medium text-sm">Total</p>
-                <p id="total-count" class="font-bold text-2xl text-gray-900">8</p>
+                <p id="total-count" class="font-bold text-2xl text-gray-900">0</p>
             </div>
             <div class="w-96 h-24 p-5 rounded-lg inset-shadow-sm/20">
                 <p class="font-medium text-sm">Interview</p>
@@ -47,9 +47,9 @@
     </div>
 
     <div class="gap-2 mt-6">
-        <button class="btn btn-primary w-20 h-8 py-3 px-8 font-semibold text-xs text-[#FFFFFF]">All</button>
-        <button class="btn w-20 h-8 py-2 px-3 font-medium text-xs text-[#64748B] bg-[#FFFFFF]">Interview</button>
-        <button class="btn w-20 h-8 py-2 px-3 font-medium text-xs text-[#64748B] bg-[#FFFFFF]">Rejected</button>
+        <button id="all" class="btn btn-primary w-20 h-8 py-3 px-8 font-semibold text-xs text-[#FFFFFF]">All</button>
+        <button id="interview" class="btn w-20 h-8 py-2 px-3 font-medium text-xs text-[#64748B] bg-[#FFFFFF]">Interview</button>
+        <button id="reject" class="btn w-20 h-8 py-2 px-3 font-medium text-xs text-[#64748B] bg-[#FFFFFF]">Rejected</button>
     </div>
 
     <section id="allCards" class="mt-4">
@@ -72,11 +72,11 @@
         <div id="card-2" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">WebFlow Agency</p>
+                <p class="font-normal text-base text-[#64748B]">Web Designer & Developer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">Los Angeles, CA • Part-time • $80,000 - $120,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -88,11 +88,11 @@
         <div id="card-3" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">DataViz Solutions</p>
+                <p class="font-normal text-base text-[#64748B]">Data Visualization Specialist</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">Boston, MA • Full-time • $125,000 - $165,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -104,11 +104,11 @@
         <div id="card-4" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">CloudFirst Inc</p>
+                <p class="font-normal text-base text-[#64748B]">Backend Developer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">Seattle, WA • Full-time • $140,000 - $190,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -120,11 +120,11 @@
         <div id="card-5" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">Innovation Labs</p>
+                <p class="font-normal text-base text-[#64748B]">UI/UX Engineer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">Austin, TX • Full-time • $110,000 - $150,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -136,11 +136,11 @@
         <div id="card-6" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">MegaCorp Solutions</p>
+                <p class="font-normal text-base text-[#64748B]">JavaScript Developer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">New York, NY • Full-time • $130,000 - $170,00</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -152,11 +152,11 @@
         <div id="card-7" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">StartupXYZ</p>
+                <p class="font-normal text-base text-[#64748B]">Full Stack Engineer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $120,000 - $160,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -168,11 +168,11 @@
         <div id="card-8" class="p-6 grid grid-cols-2 mb-4 rounded-lg inset-shadow-sm/50">
             <!-- card left -->
             <div>
-                <p class="font-semibold text-lg text-[#002C5C] mb-1">Mobile First Corp</p>
-                <p class="font-normal text-base text-[#64748B]">React Native Developer</p>
-                <p class="font-normal text-sm text-[#64748B] mt-5">Remote • Full-time • $130,000 - $175,000</p>
+                <p class="font-semibold text-lg text-[#002C5C] mb-1">TechCorp Industries</p>
+                <p class="font-normal text-base text-[#64748B]">Senior Frontend Developer</p>
+                <p class="font-normal text-sm text-[#64748B] mt-5">San Francisco, CA • Full-time • $130,000 - $175,000</p>
                 <button class="btn bg-[#EEF4FF] mt-5 font-medium text-sm text-[#002C5C]">NOT APPLIED</button>
-                <p class="font-normal text-sm text-[#323B49] mt-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <p class="font-normal text-sm text-[#323B49] mt-2">We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.</p>
                 <button class="btn btn-outline btn-success bg-[#FFFFFF] mt-5 font-semibold text-sm">INTERVIEW</button>
                 <button  class="btn btn-outline btn-secondary bg-[#FFFFFF] mt-5 font-semibold text-sm">REJECTED</button>
             </div>
@@ -183,6 +183,19 @@
         </div>
         
     </section>
-   </main>
+    <!-- Empty Message -->
+    
+    <div id="empty-message" role="alert" class="alert alert-error hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <span class="text-center">No Job available</span>
+    </div>
+    </main>
+
+    <!-- Js Link -->
+     
+   <script src="./script.js"></script>
+   
 </body>
 </html>
